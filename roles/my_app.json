@@ -1,0 +1,30 @@
+{
+  "name": "my_app",
+  "default_attributes": {
+  },
+  "json_class": "Chef::Role",
+  "env_run_lists": {
+  },
+  "run_list": [
+    "recipe[application]"
+  ],
+  "description": "",
+  "chef_type": "role",
+  "override_attributes": {
+    "apps": {
+      "my_app": {
+        "production": {
+          "force": false,
+          "run_migrations": true
+        },
+        "staging": {
+          "force": true,
+          "run_migrations": true
+        }
+      }
+    },
+    "variables": {
+      "host": "localhost"
+    }
+  }
+}
