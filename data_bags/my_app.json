@@ -44,8 +44,7 @@
   ],
   "type": {
     "my_app": [
-      "rails",
-      "unicorn"
+      "rails"
     ]
   },
   "revision": {
