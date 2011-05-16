@@ -2,7 +2,7 @@
   "group": "vagrant",
   "repository": "git://github.com/edavis10/redmine.git",
   "server_roles": [
-    "my_app"
+    "redmine"
   ],
   "migrate": {
     "production": "false"
@@ -38,12 +38,12 @@
   "mysql_repl_password": {
     "production": "sun"
   },
-  "id": "my_app",
+  "id": "redmine",
   "database_master_role": [
-    "my_app_database_master"
+    "redmine_database_master"
   ],
   "type": {
-    "my_app": [
+    "redmine": [
       "rails"
     ]
   },
@@ -54,7 +54,9 @@
     "rails": "2.3.5",
     "mysql": "",
     "rack": "1.1.0",
-    "i18n": "0.4.2"
+    "i18n": "0.4.2",
+    "aasm": "",
+    "block_helpers": ""
   },
   "rake": {
     "before_migrate": [
@@ -72,7 +74,7 @@
     "production": "sun"
   },
   "owner": "vagrant",
-  "deploy_to": "/srv/my_app",
+  "deploy_to": "/srv/redmine",
   "mysql_debian_password": {
     "production": "sun"
   }

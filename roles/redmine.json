@@ -1,18 +1,13 @@
 {
-  "name": "my_app",
-  "default_attributes": {
-  },
+  "name": "redmine",
   "json_class": "Chef::Role",
-  "env_run_lists": {
-  },
   "run_list": [
+    "recipe[database::master]",
     "recipe[application]"
   ],
-  "description": "",
-  "chef_type": "role",
   "override_attributes": {
     "apps": {
-      "my_app": {
+      "redmine": {
         "production": {
           "force": false,
           "run_migrations": true

@@ -1,5 +1,5 @@
 {
-  "name": "my_app_database_master",
+  "name": "redmine_database_master",
   "default_attributes": {
   },
   "json_class": "Chef::Role",
