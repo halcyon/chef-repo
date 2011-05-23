@@ -1,9 +1,12 @@
 {
-  "name": "redmine",
+  "name": "redminerole",
   "json_class": "Chef::Role",
   "run_list": [
+    "recipe[mysql::client]",
     "recipe[rvm]",
     "recipe[database::master]",
+    "role[production]",
+    "role[redmine_database_master]",
     "recipe[application]"
   ],
   "override_attributes": {
