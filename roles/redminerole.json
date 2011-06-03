@@ -3,16 +3,13 @@
   "json_class": "Chef::Role",
   "run_list": [
     "recipe[mysql::client]",
-    "recipe[zw-redmine]",
+    "recipe[zw_redmine]",
     "recipe[database::master]",
     "role[production]",
     "role[redmine_database_master]",
     "recipe[application]"
   ],
   "override_attributes": {
-    "rvm": {
-      "ruby_string": "ree-1.8.7-2011.03"
-    },
     "apps": {
       "redmine": {
         "production": {
