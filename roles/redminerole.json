@@ -3,7 +3,7 @@
   "json_class": "Chef::Role",
   "run_list": [
     "recipe[mysql::client]",
-    "recipe[rvm]",
+    "recipe[zw-redmine]",
     "recipe[database::master]",
     "role[production]",
     "role[redmine_database_master]",
