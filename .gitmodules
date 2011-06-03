@@ -3,4 +3,4 @@
 	url = git://github.com/opscode/cookbooks
 [submodule "site-cookbooks"]
 	path = site-cookbooks
-	url = git@github.com:halcyon/zwcookbooks
+	url = git@github.com:halcyon/zw-cookbooks
