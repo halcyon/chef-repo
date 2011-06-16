@@ -1,6 +1,6 @@
 {
+  "httpsPort": "qSZGLuksH/yVXHvoYykHHQ==\n",
   "id": "jenkins",
-  "httpsPort": "8443",
-  "store_pass": "changeit",
-  "jks_path": "/var/lib/jenkins"
+  "store_pass": "/ghHxho8TXJ2FCl7TA1oBw==\n",
+  "jks_path": "hVFBXQMu6wPB4wScLzL2ktzfQaZbKRNJIAbtaTs4TkA=\n"
 }
