@@ -1,0 +1,6 @@
+{
+  "id": "jenkins",
+  "httpsPort": "8443",
+  "store_pass": "changeit",
+  "jks_path": "/var/lib/jenkins"
+}
